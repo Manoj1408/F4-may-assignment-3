@@ -13,14 +13,14 @@ export default function Profile() {
     useEffect(() => {
       if (!counter) {
         // Redirect to signup page or any other appropriate route
-        navigate("/");
+        navigate("/F4-may-assignment-3/");
       }
     }, [counter, navigate]);
 
     function existUser() {
         localStorage.setItem("user","");
         dispatch(setUser(null));
-        navigate("/");
+        navigate("/F4-may-assignment-3/");
 
     }
 

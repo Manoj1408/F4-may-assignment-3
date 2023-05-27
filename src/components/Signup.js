@@ -52,7 +52,7 @@ export default function Signup() {
         };
         localStorage.setItem("user", JSON.stringify(obj));
         dispatch(setUser(obj));
-        navigate('/profile')
+        navigate("/F4-may-assignment-3/profile");
         // console.log(obj);
     }
   return (
