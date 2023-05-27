@@ -9,10 +9,17 @@ function App() {
   return (
     <>
       <Header />
-      <hr style={{ width: "100%", display: "flex",height:"2px",backgroundColor:"white" }} />
+      <hr
+        style={{
+          width: "100%",
+          display: "flex",
+          height: "2px",
+          backgroundColor: "white",
+        }}
+      />
       <Routes>
-        <Route path="/" element={<Signup />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/F4-may-assignment-3/" element={<Signup />} />
+        <Route path="/F4-may-assignment-3/profile" element={<Profile />} />
       </Routes>
     </>
   );
